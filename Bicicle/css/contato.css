@@ -1,0 +1,79 @@
+.interna_contato{
+    background: url(../img/bg-contato.jpg) no-repeat center;
+    background-size: cover;
+
+}
+/*Formulario*/
+.contato{
+    padding: 40px 0;
+}
+
+.contato_form{
+    padding-right: 60px;
+}
+.contato_form label{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.contato_form input{
+    width: 100%;
+    display: block;
+    border:4px  #fec63f solid ;
+    background: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contato_form textarea{
+    width: 100%;
+    height: 120px;
+    display: block;
+    border:4px  #fec63f solid ;
+    background: none;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contato_form button{
+    padding: 7px 40px;
+    background: none;
+}
+.contato_dados{
+    color: #000;
+}
+.contato_dados h3{
+    color: #fec63f;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.contato_dados span{
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    padding-bottom: 10px ;
+}
+.contato_dados span:nth-of-type(even){ /*Da uma margem a todos os Spans*/
+    margin-bottom: 30px;
+}
+
+.contato_dados ul li {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px;
+    
+}
+.mapa{
+    margin-bottom: 20px;
+}
+
+
